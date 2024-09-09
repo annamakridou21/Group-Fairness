@@ -1,1 +1,3 @@
 # Group-Fairness
+
+For the implementation of this exercise on the host OS, I have modified sched.h to include the new fields in the task_struct. Additionally, I created a new header in linux/include named mystruct.h, which contains the definition of the d_params structure. On the guest OS, I have created three test cases and modified unistd to include the necessary definitions required for the tests to run.
